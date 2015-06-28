@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E2405963-EE0D-419F-AA19-569B17405D63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Poker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>273F4A790C478FBD8461856E4D4066FFF6E544A0</key>
+		<string>172.28.120.13:repositories/Clown.git</string>
+		<key>BA1580317A2194FE43506E2AE5E0BD647F6AEFF4</key>
+		<string>https://github.com/zivlhoo/Poker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Poker.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>273F4A790C478FBD8461856E4D4066FFF6E544A0</key>
+		<string>../../Clown</string>
+		<key>BA1580317A2194FE43506E2AE5E0BD647F6AEFF4</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zivlhoo/Poker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA1580317A2194FE43506E2AE5E0BD647F6AEFF4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>273F4A790C478FBD8461856E4D4066FFF6E544A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Clown</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA1580317A2194FE43506E2AE5E0BD647F6AEFF4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Poker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

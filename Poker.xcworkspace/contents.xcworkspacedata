@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:cocoskit/cocoskit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Poker/proj.ios_mac/Poker.xcodeproj">
+   </FileRef>
+</Workspace>

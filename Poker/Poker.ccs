@@ -1,0 +1,20 @@
+<Solution>
+  <PropertyGroup Name="Poker" Version="2.3.0.1" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Image Name="table.png" />
+        <PlistImageFolder Image="Poker.png" PListFile="Poker.plist" Name=".Poker_PList.Dir">
+          <PlistImageFile Name="Club.png" Key="Club.png" />
+          <PlistImageFile Name="Diamond.png" Key="Diamond.png" />
+          <PlistImageFile Name="Heart.png" Key="Heart.png" />
+          <PlistImageFile Name="Poker.png" Key="Poker.png" />
+          <PlistImageFile Name="Spade.png" Key="Spade.png" />
+        </PlistImageFolder>
+        <Project Name="Card.csd" Type="Layer" />
+        <Project Name="GameScene.csd" Type="Scene" />
+        <Project Name="LoadScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
