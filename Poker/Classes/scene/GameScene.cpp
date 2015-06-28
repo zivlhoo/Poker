@@ -8,6 +8,7 @@
 
 #include "GameScene.h"
 #include "cocostudio/CocoStudio.h"
+#include "CardSprite.h"
 
 USING_NS_CC;
 
@@ -22,6 +23,9 @@ bool GameScene::init()
     _root = CSLoader::createNode(CCS_FILE);
     
     addChild(_root);
+    
+    
+    addChild(CardSprite::create(CardType::Jack, CardColor::Heart));
     
     return true;
 }

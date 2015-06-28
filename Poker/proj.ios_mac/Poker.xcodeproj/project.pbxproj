@@ -14,7 +14,6 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		4C8E813A1B3FAB26008975C7 /* Banker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E81381B3FAB26008975C7 /* Banker.cpp */; };
 		4C9ECAEC1B3EC67100F79835 /* CardSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9ECAEA1B3EC67100F79835 /* CardSprite.cpp */; };
 		4CD528911B3E982C0055D589 /* GameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5288F1B3E982C0055D589 /* GameMode.cpp */; };
 		4CD528941B3E98350055D589 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CD528921B3E98350055D589 /* GameState.cpp */; };
@@ -58,6 +57,7 @@
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		5B2266441B3FC7BA00AF7E4B /* libcocoskit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2266431B3FC7BA00AF7E4B /* libcocoskit.a */; };
 		5B22664A1B3FCC0000AF7E4B /* res in Resources */ = {isa = PBXBuildFile; fileRef = 5B2266491B3FCC0000AF7E4B /* res */; };
+		5B2266531B3FE05C00AF7E4B /* Dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B2266511B3FE05C00AF7E4B /* Dealer.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -108,8 +108,6 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4C8E81381B3FAB26008975C7 /* Banker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Banker.cpp; sourceTree = "<group>"; };
-		4C8E81391B3FAB26008975C7 /* Banker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banker.h; sourceTree = "<group>"; };
 		4C9ECAEA1B3EC67100F79835 /* CardSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardSprite.cpp; sourceTree = "<group>"; };
 		4C9ECAEB1B3EC67100F79835 /* CardSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSprite.h; sourceTree = "<group>"; };
 		4CD528851B3E8B200055D589 /* libcocoskit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcocoskit.a; path = "../../cocoskit/build/Debug-iphoneos/libcocoskit.a"; sourceTree = "<group>"; };
@@ -161,6 +159,9 @@
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		5B2266431B3FC7BA00AF7E4B /* libcocoskit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcocoskit.a; path = "../../cocoskit/build/Debug-iphoneos/libcocoskit.a"; sourceTree = "<group>"; };
 		5B2266491B3FCC0000AF7E4B /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		5B2266511B3FE05C00AF7E4B /* Dealer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dealer.cpp; sourceTree = "<group>"; };
+		5B2266521B3FE05C00AF7E4B /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		5B2266551B3FEAED00AF7E4B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -299,6 +300,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B2266501B3FE05C00AF7E4B /* server */,
 				4C8E81341B3FA62A008975C7 /* HUD */,
 				4C9ECAE91B3EC67100F79835 /* poker */,
 				4CD5289B1B3E99210055D589 /* scene */,
@@ -325,10 +327,9 @@
 		4C9ECAE91B3EC67100F79835 /* poker */ = {
 			isa = PBXGroup;
 			children = (
-				4C8E81381B3FAB26008975C7 /* Banker.cpp */,
-				4C8E81391B3FAB26008975C7 /* Banker.h */,
 				4C9ECAEA1B3EC67100F79835 /* CardSprite.cpp */,
 				4C9ECAEB1B3EC67100F79835 /* CardSprite.h */,
+				5B2266551B3FEAED00AF7E4B /* Card.h */,
 			);
 			path = poker;
 			sourceTree = "<group>";
@@ -390,6 +391,15 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		5B2266501B3FE05C00AF7E4B /* server */ = {
+			isa = PBXGroup;
+			children = (
+				5B2266511B3FE05C00AF7E4B /* Dealer.cpp */,
+				5B2266521B3FE05C00AF7E4B /* Dealer.h */,
+			);
+			path = server;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -530,6 +540,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2266531B3FE05C00AF7E4B /* Dealer.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
@@ -538,7 +549,6 @@
 				4CD528911B3E982C0055D589 /* GameMode.cpp in Sources */,
 				4CD5289A1B3E985A0055D589 /* PlayerState.cpp in Sources */,
 				4CD528A41B3E9BA60055D589 /* GameScene.cpp in Sources */,
-				4C8E813A1B3FAB26008975C7 /* Banker.cpp in Sources */,
 				4C9ECAEC1B3EC67100F79835 /* CardSprite.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);

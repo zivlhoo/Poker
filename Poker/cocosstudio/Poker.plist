@@ -4,7 +4,33 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>Club.png</key>
+            <key>CardColor0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,204},{78,68}}</string>
+                <key>offset</key>
+                <string>{0,-2}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{1,8},{78,68}}</string>
+                <key>sourceSize</key>
+                <string>{80,80}</string>
+            </dict>
+            <key>CardColor1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{136,84},{80,76}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,2},{80,76}}</string>
+                <key>sourceSize</key>
+                <string>{80,80}</string>
+            </dict>
+            <key>CardColor2.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{136,2},{80,78}}</string>
@@ -17,7 +43,7 @@
                 <key>sourceSize</key>
                 <string>{80,80}</string>
             </dict>
-            <key>Diamond.png</key>
+            <key>CardColor3.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{136,166},{72,78}}</string>
@@ -27,19 +53,6 @@
                 <false/>
                 <key>sourceColorRect</key>
                 <string>{{3,1},{72,78}}</string>
-                <key>sourceSize</key>
-                <string>{80,80}</string>
-            </dict>
-            <key>Heart.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,204},{78,68}}</string>
-                <key>offset</key>
-                <string>{0,-2}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,8},{78,68}}</string>
                 <key>sourceSize</key>
                 <string>{80,80}</string>
             </dict>
@@ -56,19 +69,6 @@
                 <key>sourceSize</key>
                 <string>{160,200}</string>
             </dict>
-            <key>Spade.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{136,84},{80,76}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,2},{80,76}}</string>
-                <key>sourceSize</key>
-                <string>{80,80}</string>
-            </dict>
         </dict>
         <key>metadata</key>
         <dict>
@@ -79,7 +79,7 @@
             <key>size</key>
             <string>{216,274}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:185f30fe1b0d245984d5f02c185d790b:5bee87efc5352e649827c5c0a3940e3b:eebe02e7ecd69df28b88056a7e833d0b$</string>
+            <string>$TexturePacker:SmartUpdate:4f573eb68692978cf5467879a2e9a6d5:69ab3141ff5a48aab23684f2cacdd2f7:eebe02e7ecd69df28b88056a7e833d0b$</string>
             <key>textureFileName</key>
             <string>Poker.png</string>
         </dict>

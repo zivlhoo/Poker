@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>3.8.0</string>
         <key>fileName</key>
-        <string>/Users/Ziv/Develop.localized/workspace/Xcode/Poker/ass/Poker.tps</string>
+        <string>/Users/huxf/develop.localized/workspace/xcode/Poker/asset/Poker.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -188,11 +188,11 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>Poker/Club.png</filename>
-            <filename>Poker/Diamond.png</filename>
-            <filename>Poker/Heart.png</filename>
             <filename>Poker/Poker.png</filename>
-            <filename>Poker/Spade.png</filename>
+            <filename>Poker/CardColor0.png</filename>
+            <filename>Poker/CardColor1.png</filename>
+            <filename>Poker/CardColor2.png</filename>
+            <filename>Poker/CardColor3.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

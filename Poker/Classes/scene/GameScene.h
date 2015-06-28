@@ -10,6 +10,7 @@
 #define __Poker__GameScene__
 
 #include "cocos2d.h"
+#include "GameMode.h"
 
 class GameScene : public cocos2d::Scene{
     
@@ -22,6 +23,8 @@ public:
 private:
     
     cocos2d::Node* _root;
+    
+    
     
 };
 
