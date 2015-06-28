@@ -24,5 +24,15 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="LoadScene.csd" />
+          <FilePathData Path="GameScene.csd" />
+          <FilePathData Path="Card.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="Card.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>
